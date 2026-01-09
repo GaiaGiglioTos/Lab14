@@ -32,7 +32,7 @@ class View(ft.UserControl):
                       vertical_alignment=ft.CrossAxisAlignment.END)
 
 
-
+        self._controller.fillddStore()
         self._btnCerca = ft.ElevatedButton(text="Cerca Percorso Massimo",
                                            on_click=self._controller.handleCerca)
 
